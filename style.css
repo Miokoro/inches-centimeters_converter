@@ -1,0 +1,56 @@
+body{
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+}
+
+#div1{
+    font-size: 25px;
+}
+#enterUnit{
+    font-size: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+#div2{
+    font-size: 25px;
+}
+#unitChoice{
+    font-size: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+#submit{
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(120, 100%, 31%);
+    font-size: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+#submit:hover{
+    background-color: hsl(120, 100%, 41%);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#submit:active{
+    background-color: hsl(120, 100%, 51%);
+    cursor: pointer;
+    transform: scale(.99);
+}
+#convert{
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(226, 100%, 75%);
+    font-size: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+#convert:hover{
+    background-color: hsl(226, 100%, 65%);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#convert:active{
+    background-color: hsl(226, 100%, 55%);
+    cursor: pointer;
+    transform: scale(.99);
+}
+#result{
+    font-size: 2rem;
+}
